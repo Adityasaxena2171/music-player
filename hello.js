@@ -41,7 +41,7 @@ btn.addEventListener("click", () => {
 })
 async function getapi() {
     try {
-        let url = "https://v1.nocodeapi.com/aditya2171/spotify/zglgpomrdyAgjexQ/search?q=shreeramji"
+        let url = "https://v1.nocodeapi.com/aditya2171/spotify/zglgpomrdyAgjexQ/search?q=hiphop"
         let type = "&type=track";
 
         let res = await axios.get(url + type);
